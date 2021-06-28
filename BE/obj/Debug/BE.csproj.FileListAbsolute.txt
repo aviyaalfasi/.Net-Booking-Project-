@@ -1,0 +1,29 @@
+C:\dotNet project\DotNet5780_project_5768\PL\BE\bin\Debug\BE.dll
+C:\dotNet project\DotNet5780_project_5768\PL\BE\bin\Debug\BE.pdb
+C:\dotNet project\DotNet5780_project_5768\PL\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\dotNet project\DotNet5780_project_5768\PL\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\dotNet project\DotNet5780_project_5768\PL\BE\obj\Debug\BE.dll
+C:\dotNet project\DotNet5780_project_5768\PL\BE\obj\Debug\BE.pdb
+C:\dotNet project\DotNet5780_project_5768\DOTNET5780_01_5768\BE\bin\Debug\BE.dll
+C:\dotNet project\DotNet5780_project_5768\DOTNET5780_01_5768\BE\bin\Debug\BE.pdb
+C:\dotNet project\DotNet5780_project_5768\DOTNET5780_01_5768\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\dotNet project\DotNet5780_project_5768\DOTNET5780_01_5768\BE\obj\Debug\BE.dll
+C:\dotNet project\DotNet5780_project_5768\DOTNET5780_01_5768\BE\obj\Debug\BE.pdb
+C:\Users\aviya\Desktop\פרןייקט חלק 2\DotNet5780_project_5768\DOTNET5780_02_5768\BE\bin\Debug\BE.dll
+C:\Users\aviya\Desktop\פרןייקט חלק 2\DotNet5780_project_5768\DOTNET5780_02_5768\BE\bin\Debug\BE.pdb
+C:\Users\aviya\Desktop\פרןייקט חלק 2\DotNet5780_project_5768\DOTNET5780_02_5768\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\aviya\Desktop\פרןייקט חלק 2\DotNet5780_project_5768\DOTNET5780_02_5768\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\aviya\Desktop\פרןייקט חלק 2\DotNet5780_project_5768\DOTNET5780_02_5768\BE\obj\Debug\BE.dll
+C:\Users\aviya\Desktop\פרןייקט חלק 2\DotNet5780_project_5768\DOTNET5780_02_5768\BE\obj\Debug\BE.pdb
+C:\Users\aviya\Desktop\פרוייקט חלק 3 סופי\DotNet5780_project_5768\DOTNET5780_03_5768\BE\bin\Debug\BE.dll
+C:\Users\aviya\Desktop\פרוייקט חלק 3 סופי\DotNet5780_project_5768\DOTNET5780_03_5768\BE\bin\Debug\BE.pdb
+C:\Users\aviya\Desktop\פרוייקט חלק 3 סופי\DotNet5780_project_5768\DOTNET5780_03_5768\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\aviya\Desktop\פרוייקט חלק 3 סופי\DotNet5780_project_5768\DOTNET5780_03_5768\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\aviya\Desktop\פרוייקט חלק 3 סופי\DotNet5780_project_5768\DOTNET5780_03_5768\BE\obj\Debug\BE.dll
+C:\Users\aviya\Desktop\פרוייקט חלק 3 סופי\DotNet5780_project_5768\DOTNET5780_03_5768\BE\obj\Debug\BE.pdb
+C:\Users\aviya\Desktop\DOTNET5780_03_5768\BE\bin\Debug\BE.dll
+C:\Users\aviya\Desktop\DOTNET5780_03_5768\BE\bin\Debug\BE.pdb
+C:\Users\aviya\Desktop\DOTNET5780_03_5768\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\aviya\Desktop\DOTNET5780_03_5768\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\aviya\Desktop\DOTNET5780_03_5768\BE\obj\Debug\BE.dll
+C:\Users\aviya\Desktop\DOTNET5780_03_5768\BE\obj\Debug\BE.pdb
