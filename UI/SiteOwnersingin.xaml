@@ -1,0 +1,24 @@
+﻿<Window x:Class="UI.SiteOwnersingin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="נופש חופש - בעלים" Height="300" Width="350" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="photos\MainBackGround.jpg" Opacity="0.4"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" TextAlignment="Right" Margin="116,123,0,0" Grid.Row="0" TextWrapping="Wrap" Text="הכנס ססמא" VerticalAlignment="Top" Width="102" Height="15" FontWeight="Bold"/>
+        <TextBox Name="tbUserName" HorizontalAlignment="Left" Height="22" Margin="116,94,0,0" Grid.Row="0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="102"/>
+        <TextBlock HorizontalAlignment="Left" TextAlignment="Right" Margin="116,70,0,0" Grid.Row="0" TextWrapping="Wrap" Text="הכנס שם משתמש" VerticalAlignment="Top" Width="102" Height="19" FontWeight="Bold"/>
+        <PasswordBox Name="tbPassword" HorizontalAlignment="Left" Height="22" Margin="116,143,0,0" Grid.Row="0"  VerticalAlignment="Top" Width="102"/>
+        <Button Name="OK_button" Content="התחבר" HorizontalAlignment="Left" Margin="116,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="102" Background="#FF3EFB07" FontWeight="Bold" FontSize="16" Click="OK_button_Click"/>
+    </Grid>
+</Window>

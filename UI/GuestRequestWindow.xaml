@@ -1,0 +1,110 @@
+﻿<Window x:Class="UI.GuestRequestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="נופש חופש - בקשת אירוח" Height="505.5" Width="846.5" FontSize="16" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <local:EnumDescriptionConverter x:Key="enumConverter" />
+    </Window.Resources>
+
+    <Grid Margin="0,0,0,-3">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock TextAlignment="Center" Margin="0,0,10,0" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="64" FontSize="36" FontWeight="Bold" Foreground="Gray" Grid.ColumnSpan="2"><Run Text="?איזה חופשה אתם מחפשים"/><InlineUIContainer>
+                
+            </InlineUIContainer></TextBlock>
+        <TextBlock HorizontalAlignment="Left" TextAlignment="Center" Text="בחר אזור בארץ" Margin="267,0,0,0" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="142" Height="31" Grid.Column="1" FontWeight="Bold" FontSize="20" Foreground="#FF792C8F"/>
+
+
+
+        <TextBlock HorizontalAlignment="Left" TextAlignment="Center" Text="בחר סוג חופשה" Margin="262,0,0,0" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="147" Height="31" Grid.Column="1" FontWeight="Bold" FontSize="20" Foreground="#FF792C8F"/>
+        <TextBox Name="Adults" HorizontalAlignment="Left" Grid.Column="0" MaxLength="1" Grid.Row="2" Width="38" Height="34" VerticalAlignment="Bottom" Margin="258,0,0,0"  />
+        <TextBox Name="Childrens" HorizontalAlignment="Left" Grid.Column="0" MaxLength="1" Height="34" Margin="23,22,0,0" Grid.Row="2" TextWrapping="Wrap"  VerticalAlignment="Top" Width="34"/>
+        <TextBlock HorizontalAlignment="Left" Margin="301,0,0,0" Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="93" Height="34" Foreground="#FF2814A4" FontWeight="Bold" FontSize="18"><Run Text="מבוגרים"/><InlineUIContainer>
+               
+            </InlineUIContainer></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="62,0,0,0" Grid.Column="0" Grid.Row="2" TextWrapping="Wrap" Text="ילדים" VerticalAlignment="Bottom" Height="34" Width="120" Foreground="#FF2814A4" FontWeight="Bold" FontSize="18"/>
+        <DatePicker Name="EntryDate" Grid.Column="1" HorizontalAlignment="Left" Margin="143,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="172" Height="32"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" TextAlignment="Center" Margin="320,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="צ'ק-אין" VerticalAlignment="Top" Width="89" Height="46" Foreground="#FF4444EE" FontSize="20" FontWeight="Bold"/>
+        <DatePicker Name="ReleaseDate" Grid.Column="0" HorizontalAlignment="Left" Margin="126,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="170" Height="32"/>
+        <TextBlock Grid.Column="0" HorizontalAlignment="Left" TextAlignment="Center" Margin="301,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="צ'ק-אאוט" VerticalAlignment="Top" Width="108" Height="46" Foreground="#FF4444EE" FontSize="20" FontWeight="Bold"/>
+        <StackPanel Name="pool" HorizontalAlignment="Left" Height="78" Margin="23,0,0,0" Grid.Row="3" VerticalAlignment="Top" Width="76" Grid.RowSpan="2">
+            <RadioButton Name="YesPool" Content="כן" Margin="0,0,10,0"/>
+            <RadioButton Name="NoPool" Content="לא" Margin="0,0,10,0"/>
+            <RadioButton Name="PossiblePool" Content="אפשרי" Height="28" IsChecked="True"/>
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" Margin="126,10,0,0" Grid.Row="3" TextWrapping="Wrap" Text="בריכה" VerticalAlignment="Top" Width="69" Height="37" FontWeight="Bold" FontSize="18" Foreground="#FF2814A4"/>
+        <StackPanel Name="Jaccuzi" HorizontalAlignment="Left" Height="78" Margin="220,0,0,0" Grid.Row="3" VerticalAlignment="Top" Width="76" Grid.RowSpan="2">
+            <RadioButton Name="YesJaccuzi" Content="כן" Margin="0,0,10,0"/>
+            <RadioButton Name="NoJaccuzi" Content="לא" Margin="0,0,10,0"/>
+            <RadioButton Name="PossibleJaccuzi" Content="אפשרי" Height="32" IsChecked="True"/>
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" Margin="344,10,0,0" Grid.Row="3" TextWrapping="Wrap" Text="ג'קוזי" VerticalAlignment="Top" Width="65" Height="37" FontWeight="Bold" FontSize="18" Foreground="#FF2814A4"/>
+        <StackPanel Name="garden" HorizontalAlignment="Left" Height="72" Margin="23,0,0,0" Grid.Row="5" VerticalAlignment="Top" Width="76" Grid.RowSpan="2">
+            <RadioButton Name="YesGarden" Content="כן" Margin="0,0,10,0"/>
+            <RadioButton Name="NoGarden" Content="לא" Margin="0,0,10,0"/>
+            <RadioButton Name="PossibleGarden" Content="אפשרי" Height="24" IsChecked="True"/>
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" TextAlignment="Center" Margin="126,10,0,0" Grid.Row="5" TextWrapping="Wrap" Text="חצר" VerticalAlignment="Top" Width="69" Height="37" FontWeight="Bold" FontSize="18" Foreground="#FF2814A4"/>
+        <StackPanel Name="Attractions" HorizontalAlignment="Left" Height="72" Margin="220,0,0,0" Grid.Row="5" VerticalAlignment="Top" Width="76" Grid.RowSpan="2">
+            <RadioButton Name="YesAttractions" Content="כן" Margin="0,0,10,0"/>
+            <RadioButton Name="NoAttractions" Content="לא" Margin="0,0,10,0"/>
+            <RadioButton Name="PossibleAttractions" Content="אפשרי" Height="26" IsChecked="True"/>
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" TextAlignment="Center" Margin="296,10,0,0" Grid.Row="5" TextWrapping="Wrap" Text="קרוב לאטרקציות" VerticalAlignment="Top" Width="123" Height="47" FontWeight="Bold" FontSize="18" Foreground="#FF2814A4"/>
+        <Button Name="OkButton" Content="אישור" HorizontalAlignment="Left" Margin="48,5,0,0" Grid.Row="7" VerticalAlignment="Top" Width="110" Height="25" Background="#FF1150BF" FontWeight="Bold" Click="OkButton_Click_1" />
+        <Button Name="CancelButton" Content="ביטול" HorizontalAlignment="Left" Margin="198,5,0,0" Grid.Row="7" VerticalAlignment="Top" Width="110" Height="25" FontWeight="Bold" Background="#FFFF3205" Click="CancelButton_Click"/>
+
+        <!--DISPLAY THE COMBOBOX WITH OUR SELECTED ENUMS-->
+        <ComboBox x:Name="cbArea" Grid.Column="1" HorizontalAlignment="Left" Margin="121,0,0,0" Grid.Row="5" VerticalAlignment="Bottom" Width="141" >
+            
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Converter={StaticResource enumConverter}}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+
+
+        <ComboBox Name="cbVacationType" Grid.Column="1" HorizontalAlignment="Left" Margin="121,0,0,0" Grid.Row="6" VerticalAlignment="Bottom" Width="141">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Converter={StaticResource enumConverter}}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" TextAlignment="Center" Text="כתובת מייל" Margin="267,0,0,0" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="142" Height="31" Grid.Column="1" FontWeight="Bold" FontSize="20" Foreground="#FF792C8F"/>
+        <TextBlock HorizontalAlignment="Left" TextAlignment="Center" Text="שם משפחה" Margin="267,0,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="142" Height="31" Grid.Column="1" FontWeight="Bold" FontSize="20" Foreground="#FF792C8F"/>
+        <TextBlock HorizontalAlignment="Left" TextAlignment="Center" Text="שם פרטי" Margin="267,0,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="142" Height="31" Grid.Column="1" FontWeight="Bold" FontSize="20" Foreground="#FF792C8F"/>
+        <TextBox Name="tbPrivateName" Grid.Column="1" HorizontalAlignment="Left" Height="31" Margin="121,0,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="146"/>
+        <TextBox Name="tbFamilyName" Grid.Column="1" HorizontalAlignment="Left" Height="31" Margin="121,0,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="146"/>
+        <TextBox Name="tbMailAddress" Grid.Column="1" HorizontalAlignment="Left" Height="31" Margin="121,0,0,0" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="146"/>
+        <TextBlock Name="ErrorEmptyPrivateName" Visibility="Hidden" Grid.Column="1" TextAlignment="Center" HorizontalAlignment="Left" Margin="121,0,0,0" Grid.Row="2" TextWrapping="Wrap" Text="שדה חובה" VerticalAlignment="Top" Height="20" Width="141" Foreground="#FFDC0F0F"/>
+        <TextBlock Name="ErrorEmptyFamilyName" Visibility="Hidden" Grid.Column="1" TextAlignment="Center" HorizontalAlignment="Left" Margin="121,0,0,0" Grid.Row="3" TextWrapping="Wrap" Text="שדה חובה" VerticalAlignment="Top" Height="20" Width="141" Foreground="#FFDC0F0F"/>
+        <TextBlock Name="ErrorEmptyMail" Visibility="Hidden" Grid.Column="1" TextAlignment="Center" HorizontalAlignment="Left" Margin="121,0,0,0" Grid.Row="4" TextWrapping="Wrap" Text="שדה חובה" VerticalAlignment="Top" Height="20" Width="141" Foreground="#FFDC0F0F"/>
+        <TextBlock Name="ErrorEmptyArea" Visibility="Hidden" Grid.Column="1" TextAlignment="Center" HorizontalAlignment="Left" Margin="121,0,0,0" Grid.Row="5" TextWrapping="Wrap" Text="שדה חובה" VerticalAlignment="Top" Height="20" Width="141" Foreground="#FFDC0F0F"/>
+        <TextBlock Name="ErrorEmptyType" Visibility="Hidden" Grid.Column="1" TextAlignment="Center" HorizontalAlignment="Left" Margin="121,0,0,0" Grid.Row="6" TextWrapping="Wrap" Text="שדה חובה" VerticalAlignment="Top" Height="20" Width="141" Foreground="#FFDC0F0F"/>
+        <TextBlock Name="ErrorEmptyChildrens" Visibility="Hidden" Grid.Column="0" TextAlignment="Left" HorizontalAlignment="Left" Margin="23,0,0,0" Grid.Row="2" TextWrapping="Wrap" Text="שדה חובה" VerticalAlignment="Top" Height="20" Width="109" Foreground="#FFDC0F0F"/>
+        <TextBlock Name="ErrorEmptyAdults" Visibility="Hidden" Grid.Column="0" TextAlignment="Left" HorizontalAlignment="Left" Margin="258,0,0,0" Grid.Row="2" TextWrapping="Wrap" Text="שדה חובה" VerticalAlignment="Top" Height="20" Width="136" Foreground="#FFDC0F0F"/>
+        <TextBlock Name="ErrorEmptyEntryDate" Visibility="Hidden" Grid.Column="1" TextAlignment="Left" HorizontalAlignment="Left" Margin="32,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="שדה חובה" VerticalAlignment="Top" Height="20" Width="100" Foreground="#FFDC0F0F"/>
+        <TextBlock Name="ErrorEmptyReleasDate" Visibility="Hidden" Grid.Column="0" TextAlignment="Left" HorizontalAlignment="Left" Margin="23,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="שדה חובה" VerticalAlignment="Top" Height="20" Width="98" Foreground="#FFDC0F0F"/>
+        <TextBlock Name="ErrorContentMail" Visibility="Hidden" Grid.Column="1" TextAlignment="Center" HorizontalAlignment="Left" Margin="95,0,0,0" Grid.Row="4" TextWrapping="Wrap" Text="הכנס כתובת מייל תקינה" VerticalAlignment="Top" Width="172" Height="25" Foreground="#FFDC0F0F"/>
+    </Grid>
+</Window>
