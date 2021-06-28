@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hosts>
+  <Hosts>
+    <HostKey>315435</HostKey>
+    <PrivateName>aviya</PrivateName>
+    <FamilyName>alfasi</FamilyName>
+    <FhoneNumber>0527789455</FhoneNumber>
+    <MailAddress>a@s.j</MailAddress>
+    <BankBranchDetails>
+      <BankNumber>10</BankNumber>
+      <BankName>Leumi</BankName>
+      <BranchNumber>400</BranchNumber>
+      <BranchAddress>Herzl 19, Tel Aviv Jaffa</BranchAddress>
+      <BranchCity>Tel Aviv</BranchCity>
+    </BankBranchDetails>
+    <BankAccountNumber>8974653</BankAccountNumber>
+    <Commission>0</Commission>
+    <CollectionClearance>true</CollectionClearance>
+    <password>1234</password>
+  </Hosts>
+  <Hosts>
+    <HostKey>123456</HostKey>
+    <PrivateName>moshe</PrivateName>
+    <FamilyName>ali</FamilyName>
+    <FhoneNumber>0524981655</FhoneNumber>
+    <MailAddress>aviya.abc@gmail.com</MailAddress>
+    <BankBranchDetails>
+      <BankNumber>11</BankNumber>
+      <BankName>Discont</BankName>
+      <BranchNumber>76</BranchNumber>
+      <BranchAddress>Presidential Avenue 124</BranchAddress>
+      <BranchCity>Haifa</BranchCity>
+    </BankBranchDetails>
+    <BankAccountNumber>98465132</BankAccountNumber>
+    <Commission>0</Commission>
+    <CollectionClearance>false</CollectionClearance>
+    <password>12345</password>
+  </Hosts>
+  <Hosts>
+    <HostKey>789</HostKey>
+    <PrivateName>dani</PrivateName>
+    <FamilyName>g</FamilyName>
+    <FhoneNumber>0539998745</FhoneNumber>
+    <MailAddress>a@a.a</MailAddress>
+    <BankBranchDetails>
+      <BankNumber>10</BankNumber>
+      <BankName>Leumi</BankName>
+      <BranchNumber>400</BranchNumber>
+      <BranchAddress>Herzl 19, Tel Aviv Jaffa</BranchAddress>
+      <BranchCity>Tel Aviv</BranchCity>
+    </BankBranchDetails>
+    <BankAccountNumber>12457</BankAccountNumber>
+    <Commission>0</Commission>
+    <CollectionClearance>true</CollectionClearance>
+    <password>7890</password>
+  </Hosts>
+  <Hosts>
+    <HostKey>1111111</HostKey>
+    <PrivateName>aaa</PrivateName>
+    <FamilyName>aaa</FamilyName>
+    <FhoneNumber>068498</FhoneNumber>
+    <MailAddress>aviya.abc@gmail.com</MailAddress>
+    <BankBranchDetails>
+      <BankNumber>22</BankNumber>
+      <BankName>Citibank N.A</BankName>
+      <BranchNumber>2</BranchNumber>
+      <BranchAddress>Menachem Begin 121st street 121</BranchAddress>
+      <BranchCity>TEL AVIV - YAFO</BranchCity>
+    </BankBranchDetails>
+    <BankAccountNumber>645312</BankAccountNumber>
+    <Commission>0</Commission>
+    <CollectionClearance>true</CollectionClearance>
+    <password>11111111</password>
+  </Hosts>
+  <Hosts>
+    <HostKey>95123648</HostKey>
+    <PrivateName>tili</PrivateName>
+    <FamilyName>yafe</FamilyName>
+    <FhoneNumber>0547563214</FhoneNumber>
+    <MailAddress>til@gmail.com</MailAddress>
+    <BankBranchDetails>
+      <BankNumber>13</BankNumber>
+      <BankName>Union Bank of Israel Ltd</BankName>
+      <BranchNumber>157</BranchNumber>
+      <BranchAddress>Weizman st. 32 32</BranchAddress>
+      <BranchCity>TEL AVIV - YAFO</BranchCity>
+    </BankBranchDetails>
+    <BankAccountNumber>964</BankAccountNumber>
+    <Commission>0</Commission>
+    <CollectionClearance>true</CollectionClearance>
+    <password>123456</password>
+  </Hosts>
+  <Hosts>
+    <HostKey>789456123</HostKey>
+    <PrivateName>shir</PrivateName>
+    <FamilyName>a</FamilyName>
+    <FhoneNumber>0529638521</FhoneNumber>
+    <MailAddress>aviya.abc@gmail.com</MailAddress>
+    <BankBranchDetails>
+      <BankNumber>31</BankNumber>
+      <BankName>The First International Bank of Israel Ltd</BankName>
+      <BranchNumber>59</BranchNumber>
+      <BranchAddress>15,Haharoshet St.  Carmiel 15</BranchAddress>
+      <BranchCity>KARMI'EL</BranchCity>
+    </BankBranchDetails>
+    <BankAccountNumber>55555</BankAccountNumber>
+    <Commission>0</Commission>
+    <CollectionClearance>true</CollectionClearance>
+    <password>789456123</password>
+  </Hosts>
+  <Hosts>
+    <HostKey>212314033</HostKey>
+    <PrivateName>shira</PrivateName>
+    <FamilyName>alfasi</FamilyName>
+    <FhoneNumber>0584084178</FhoneNumber>
+    <MailAddress>shiraa314@gmail.com</MailAddress>
+    <BankBranchDetails>
+      <BankNumber>20</BankNumber>
+      <BankName>Mizrahi Tefahot Bank Ltd</BankName>
+      <BranchNumber>648</BranchNumber>
+      <BranchAddress>Harokmim St. Holon 26</BranchAddress>
+      <BranchCity>HOLON</BranchCity>
+    </BankBranchDetails>
+    <BankAccountNumber>5647698532</BankAccountNumber>
+    <Commission>0</Commission>
+    <CollectionClearance>true</CollectionClearance>
+    <password>1234</password>
+  </Hosts>
+  <Hosts>
+    <HostKey>123456789</HostKey>
+    <PrivateName>אביעד</PrivateName>
+    <FamilyName>אלפסי</FamilyName>
+    <FhoneNumber>49849</FhoneNumber>
+    <MailAddress>ewaz@dssr.ytf</MailAddress>
+    <BankBranchDetails>
+      <BankNumber>39</BankNumber>
+      <BankName>State Bank Of India</BankName>
+      <BranchNumber>1</BranchNumber>
+      <BranchAddress>RAMAT GAN</BranchAddress>
+      <BranchCity>RAMAT GAN</BranchCity>
+    </BankBranchDetails>
+    <BankAccountNumber>949684589</BankAccountNumber>
+    <Commission>0</Commission>
+    <CollectionClearance>true</CollectionClearance>
+    <password>123456789</password>
+  </Hosts>
+</hosts>

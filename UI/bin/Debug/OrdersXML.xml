@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Orders>
+  <Order>
+    <OrderKey>10000006</OrderKey>
+    <HostKey>789</HostKey>
+    <HostingUnitKey>10000003</HostingUnitKey>
+    <GuestRequestKey>10000002</GuestRequestKey>
+    <status>ClosedClientResponse</status>
+    <CreateDate>2/2/2020 12:00:00 AM</CreateDate>
+    <OrderDate>2/2/2020 12:00:00 AM</OrderDate>
+    <EnteryDate>2/16/2020 12:00:00 AM</EnteryDate>
+    <ReleaseDate>2/22/2020 12:00:00 AM</ReleaseDate>
+    <TotalPrice>9000</TotalPrice>
+  </Order>
+  <Order>
+    <OrderKey>10000007</OrderKey>
+    <HostKey>789</HostKey>
+    <HostingUnitKey>10000003</HostingUnitKey>
+    <GuestRequestKey>10000001</GuestRequestKey>
+    <status>ClosedClientResponse</status>
+    <CreateDate>2/2/2020 12:00:00 AM</CreateDate>
+    <OrderDate>2/2/2020 12:00:00 AM</OrderDate>
+    <EnteryDate>3/1/2020 12:00:00 AM</EnteryDate>
+    <ReleaseDate>3/7/2020 12:00:00 AM</ReleaseDate>
+    <TotalPrice>9000</TotalPrice>
+  </Order>
+  <Order>
+    <OrderKey>10000008</OrderKey>
+    <HostKey>212314033</HostKey>
+    <HostingUnitKey>10000007</HostingUnitKey>
+    <GuestRequestKey>10000004</GuestRequestKey>
+    <status>ClosedClientResponse</status>
+    <CreateDate>2/4/2020 12:00:00 AM</CreateDate>
+    <OrderDate>2/4/2020 12:00:00 AM</OrderDate>
+    <EnteryDate>2/17/2020 12:00:00 AM</EnteryDate>
+    <ReleaseDate>2/18/2020 12:00:00 AM</ReleaseDate>
+    <TotalPrice>550</TotalPrice>
+  </Order>
+  <Order>
+    <OrderKey>10000010</OrderKey>
+    <HostKey>123456789</HostKey>
+    <HostingUnitKey>10000011</HostingUnitKey>
+    <GuestRequestKey>10000005</GuestRequestKey>
+    <status>SentMail</status>
+    <CreateDate>2/22/2020 12:00:00 AM</CreateDate>
+    <OrderDate>2/22/2020 12:00:00 AM</OrderDate>
+    <EnteryDate>2/25/2020 12:00:00 AM</EnteryDate>
+    <ReleaseDate>2/28/2020 12:00:00 AM</ReleaseDate>
+    <TotalPrice>1665</TotalPrice>
+  </Order>
+</Orders>
